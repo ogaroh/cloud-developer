@@ -11,7 +11,7 @@ export const config = {
     dialect: "postgres",
   },
   jwt: {
-    secret: "",
+    secret: process.env.JWT_SECRET,
   },
   prod: {
     username: "",
